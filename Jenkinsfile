@@ -14,6 +14,7 @@ pipeline {
         stage('test linux') {
           steps {
             sh 'echo "test"'
+		sh 'echo "test avec ngrok"'
           }
         }
 
